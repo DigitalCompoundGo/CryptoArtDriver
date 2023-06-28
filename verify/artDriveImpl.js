@@ -1,0 +1,1 @@
+module.exports = ['Crypto Art Driver', 'CAD', 'https://cad-renderer.digitalcompound.org/metadata', '0x96DF4508d5Fb5f57363b28A0Fd56233dc6F2a5cD', '100000000000000000', '30', '270', '2700', '0xf53ec53832bb9f9bc7117bda2f65068c7e5aef87d958c753610fb3470bd3cd03', '1667700000']

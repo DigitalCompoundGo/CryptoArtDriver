@@ -1,0 +1,40 @@
+{
+  "name": "digital-art-driver",
+  "version": "1.0.0",
+  "scripts": {
+    "deploy:kovan": "hardhat deploy --network kovan",
+    "deploy:goerli": "hardhat deploy --network goerli",
+    "deploy:rinkeby": "hardhat deploy --network rinkeby",
+    "addWors:rinkeby": "hardhat run scripts/addWords.js --network rinkeby",
+    "mint:rinkeby": "hardhat run scripts/mint.js --network rinkeby"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EndOfMaster/digital-art-driver.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EndOfMaster/digital-art-driver/issues"
+  },
+  "homepage": "https://github.com/EndOfMaster/digital-art-driver#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.1",
+    "@nomiclabs/hardhat-etherscan": "^3.1.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/contracts": "^4.7.3",
+    "@openzeppelin/contracts-upgradeable": "^4.7.3",
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.3",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.7.2",
+    "hardhat-deploy": "^0.11.20",
+    "hardhat-deploy-ethers": "^0.3.0-beta.13",
+    "mocha": "^10.1.0"
+  },
+  "dependencies": {
+    "global-agent": "^3.0.0",
+    "hardhat": "^2.12.2",
+    "merkletreejs": "^0.3.0"
+  }
+}
